@@ -1,0 +1,93 @@
+*{
+	top:0;
+	left:0;
+	scroll-behavior: smooth; 
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	transition: 0.3s ease;
+}
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+header, #login, #sign{
+	height: 100vh;
+}
+header{
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('pic1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover; 
+}
+::-webkit-scrollbar{
+	display: none;
+}
+#login{
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('pic2.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#sign{
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('pic3.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+	font-size: 20px;
+}
+#el{
+	padding: 5px;
+	border: 1px white transparent;
+	border-radius: 5px;
+}
+#el:hover{
+	border:1px white solid;
+}
+.list{
+	padding: 10px;
+	width:100%;
+	height: auto;
+	position: absolute;
+	top:28%;
+	left:15%;
+}
+.text{
+	font-size: 50px;
+}
+.lt{
+	position: relative;
+	top:40%;
+	left:-3.8%;
+}
+#login form, #sign form{
+	position: relative;
+	top: 28%;
+	left: 15%;
+}
+.el2{
+	padding: 10px;
+}
+input[type=text], input[type=password]{
+	background: transparent;
+	border: 1px solid white;
+	color: black; 
+	outline: none;
+	border-radius: 24px;
+	padding: 5px;
+}
+::placeholder{
+	color: white;
+}
+#txt{
+	font-size: 30px;
+	padding-bottom: 10px;
+}
